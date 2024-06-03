@@ -10,10 +10,13 @@ html {
 }
 
 .container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   color: #333;
 }
